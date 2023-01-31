@@ -31,10 +31,31 @@
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" required type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Kokoa Account or Password</a>
+      <div id="login-form__input">
+        <input
+          name="username"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input
+          name="password"
+          required
+          type="password"
+          placeholder="Password"
+        />
+        <input type="submit" value="Log In" />
+      </div>
+      <div id="login-form__a">
+        <div id="login-form__a_column">
+          <a href="#">Find Kokoa Account</a>
+        </div>
+        <div id="login-form__a_column">
+          <a href="#">Find Password</a>
+        </div>
+        <div id="login-form__a_column">
+          <a href="#">Create New Account</a>
+        </div>
+      </div>
     </form>
 
     <script

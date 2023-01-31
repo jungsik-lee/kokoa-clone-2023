@@ -14,11 +14,12 @@
     opacity: 0.7;
 }
 
-#login-form
+#login-form__input
 {
     display: flex;
     flex-direction: column;
     margin:0px 30px;
+    
 }
 
 #login-form input{
@@ -26,6 +27,7 @@
     padding:15px 0px;
     font-size:18px;
     margin-bottom: 25px;
+
 }
 
 #login-form input:not([type="submit"]){
@@ -48,9 +50,36 @@
     border-radius: 5px;
 }
 
-#login-form a{
-    text-align: center;
+#login-form__a{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#login-form__a a{
     text-decoration: none;
     color:inherit;
     font-size: 13px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+#login-form__a_column{
+    width:33%;
+}
+
+#login-form__a_column:first-child{
+    margin-left:30px;
+}
+#login-form__a_column:nth-child(2){
+    display: flex;
+    justify-content: center;
+    margin-top:3.5px;
+}
+#login-form__a_column:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    margin-top:3px;
 }
