@@ -3,8 +3,10 @@
 @import "variables.css";
 /*Componets*/
 @import "componets/status-bar.css";
+@import "componets/nav-bar.css";
 /*Screens*/
 @import "screens/login.css";
+
 
 
 body{
