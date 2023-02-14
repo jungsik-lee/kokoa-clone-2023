@@ -57,5 +57,18 @@
     margin-bottom: 10px;
     display: block;
 }
-
-
+.user-component__alarm{
+    width:15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    border:1px solid red;
+    border-radius: 50%;
+    margin-left:5px;
+}
+.phone-number{
+    display: flex;
+    align-items: center;
+}
