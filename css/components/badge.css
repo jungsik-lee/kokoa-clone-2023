@@ -9,3 +9,12 @@
     color:white;
     font-weight: 600;
 }
+
+
+.screen__header__badge{
+    position:absolute;
+    left:20px;
+    bottom:20px;
+    width:8px;
+    height:8px;
+}

@@ -6,6 +6,9 @@
     margin-bottom: 15px;
 }
 
+.screen__header__icons{
+    display: flex;
+}
 .screen__header__icons span{
     margin-left:25px;
 }
@@ -13,4 +16,8 @@
 .screen__header__title{
     font-size:25px;
     font-weight: 600;
+}
+
+.screen__header__icons__setting{
+    position: relative;
 }
